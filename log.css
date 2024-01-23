@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+  width: 60vh;
+  height: 53vh;
+  border: 2px ;
+  border-bottom: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+ opacity: 10;
+}
+.container:hover{
+  transform: scale(1.03,1.03);
+}
+.container input{
+  padding-left: 50%;
+  border: 150 px;
+  border-radius: 7px;
+  border: 2px solid black;  
+  margin: top 20px;;
+  padding: 0 10px;
+  font-size: 15px;
+
+}
+.container a{
+  color: red;
+}
+body{
+  background-image:url("./images/web.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+

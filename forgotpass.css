@@ -1,0 +1,31 @@
+.forgotp{
+    
+         orientation:portrait;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 15vh;
+    padding-top: 25vh;
+    width: 40vh;
+    height: 18vh;
+}
+  .forgotp label{
+    color: white;
+    font-size: 20px;
+  }
+
+  .forgotp input{
+    padding-left: 5%;
+    border: 150 px;
+    border-bottom: 3px solid black;  
+    margin: top 20px;
+    padding: 0 10px;
+    font-size: 15px;
+  
+  }
+  body{
+    background-image:url("./images/win.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+  }
